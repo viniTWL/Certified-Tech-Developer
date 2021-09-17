@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+body{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: url(img/cidade-parademinas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color:rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+main{
+    background:#000000b7;
+    padding: 5px 50px;
+    margin: 30px 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.219);
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#instaImg{
+    border-radius: 150px;
+    width: 60px;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+
+#paraDeMinasImg{
+    width: 180px;
+    box-sizing: border-box;
+    margin-left: 130px;
+}
+
+#faceImg{
+    width: 60px;
+    border-radius: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
