@@ -1,0 +1,65 @@
+.caixa-interna-1 {
+    height: 100px;
+    width: 100px;
+     background-color: white;
+     border: 2px solid black;
+     position: relative;
+     left: 50px;
+     top: 50px;
+ }
+
+ .texto-caixa-1 {
+     position: relative;
+     left: 40px;
+     top: 20px;
+ }
+
+ .caixa-fora-2 {
+    height: 200px;
+    width: 200px;
+     background-color: white;
+     border: 2px solid black;
+     position: absolute;
+     right: 100px;
+ }
+ .caixa-interna-2 {
+     height: 100px;
+     width: 100px;
+      background-color: white;
+      border: 2px solid black;
+      position: relative;
+      left: 50px;
+      top: 50px;
+  }
+ 
+  .texto-caixa-2 {
+      position: relative;
+      left: 50px;
+      top: 20px;
+  }
+
+
+  .caixa-fora-3 {
+    height: 200px;
+    width: 200px;
+     background-color: white;
+     border: 2px solid black;
+     position: absolute;
+     right: 500px;
+     top: 500px;
+ }
+ .caixa-interna-3 {
+     height: 100px;
+     width: 100px;
+      background-color: white;
+      border: 2px solid black;
+      position: relative;
+      left: 50px;
+      top: 50px;
+  }
+ 
+  .texto-caixa-3 {
+      position: relative;
+      left: 50px;
+      top: 20px;
+  }

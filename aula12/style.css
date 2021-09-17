@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    background-color: #c54242;
+    color: white;
+
+}
+
+main{
+    text-align: center;
+    animation: mainAnimation 2s;
+}
+
+main img{
+    width:200px;
+    border-radius:100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label, option, select{
+    display: block;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+h2{
+    font-family: 'Anton', Helvetica;
+    font-size: 180%;
+}
+
+button:hover{
+    color: yellow;
+}
+
+@keyframes mainAnimation {
+    from{
+        transform: scale(0) translateX(-100%) translateY(-10)
+    }
+    to{
+        transform: scale(100%) translateX(0) translateY(0)
+    };
+    
+}
