@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Loja de Doces</title>
+</head>
+<body>
+    <main>
+    <h1>Ovos de Ouro</h1>
+    <form>
+        <fieldset class="dados-pessoais">
+            <legend>Dados pessoais:</legend>            
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Nome" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" placeholder="Telefone" required>
+            
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" placeholder="Escreva o seu endereço" required>
+        </fieldset>
+        
+        <h2 for="pedido">Pedido:</h2>
+        <fieldset>
+            <legend>Bolos:</legend>    
+            <select name="bolos" id="bolos">
+                <option value="">Selecione uma opção</option>
+                <option value="maracuja">Maracujá</option>
+                <option value="brigadeiro">Brigadeiro</option>
+                <option value="morango">Morango</option>
+                <option value="trufado">Trufado</option>
+                <option value="alpino">Alpino</option>
+            </select>        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Bolos de pote:</legend>    
+            <select name="bolos" id="bolos">
+                <option value="">Selecione uma opção</option>
+                <option value="prestigio">Prestígio</option>
+                <option value="ninho-com-nutella">Ninho com nutella</option>
+                <option value="alpino">Alpino</option>
+            </select>        
+        </fieldset>
+        
+        <fieldset>
+            <legend>Docinhos de Festa</legend>
+            <select name="docinhos" id="docinhos">
+                <option value="">Selecione uma opção</option>
+                <option value="brigadeiro">Brigadeiro</option>
+                <option value="beijinho">Beijinho</option>
+                <option value="romeu e julieta">Romeu e julieta</option>
+                <option value="docinho de coco">Docinho de coco</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Bebidas</legend>
+            <select name="bebidas" id="bebidas">
+                <option value="">Selecione uma opção</option>
+                <option value="coca-cola">Coca-cola</option>
+                <option value="guaraná">Guaraná</option>
+                <option value="fanta laranja">Fanta Laranja</option>
+                <option value="suco de laranja">Suco de laranja</option>
+                <option value="suco de uva">Suco de uva</option>
+            </select>
+        </fieldset>         
+        
+        <fieldset>
+            <legend>Método de pagamento:</legend>
+            <div>
+              <input type="radio" name="pagamento" id="dinheiro" />
+              <label for="dinheiro">Dinheiro</label>
+            </div>
+            <div>
+              <input type="radio" name="pagamento" id="credito" />
+              <label for="credito">Crédito</label>
+            </div>
+            <div>
+              <input type="radio" name="pagamento" id="debito" />
+              <label for="debito">Débito</label>
+            </div>
+            <div>
+              <input type="radio" name="pagamento" id="pix" checked />
+              <label for="pix">Pix</label>
+            </div>
+          </fieldset>
+          <footer>
+              <button type="reset">Cancelar</button>
+              <button type="submit">Enviar</button>
+          </footer>
+     </form>
+    </main>
+</body>
+</html>
