@@ -66,6 +66,10 @@ h3{
     margin-left: 100px;
 }
 
+#instaImg, #faceImg, #paraDeMinasImg :hover{
+    transform: scale (0.2);
+}
+
 .video-container{
     display: flex;
     justify-content: center;
