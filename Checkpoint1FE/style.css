@@ -65,3 +65,31 @@ h3{
     box-sizing: border-box;
     margin-left: 100px;
 }
+
+.video-container{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin-right:80px ;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 580px) {
+    .links {
+        justify-content: center;
+        flex-direction: column;
+}
+    #faceImg, #instaImg,#paraDeMinasImg{
+        margin-left: 20px;
+        margin-bottom: 20px;
+}
+    .links h3{
+        text-align: left;
+    }
+
+}
