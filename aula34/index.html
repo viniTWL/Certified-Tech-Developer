@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <form name="dados">
+        <label>Nome:</label>
+        <input type="text" name="fnome" id="fnome"  size="20">
+
+        <label>Cor Funod</label>
+        <input type="radio" name="fcorF" onclick="defColor(1, '#000')">Preto<br/>
+        <input type="radio" name="fcorF" onclick="defColor(1, '#fff')">Branco<br/>
+        <input type="radio" name="fcorF" onclick="defColor(1, '#f00')">Vermelho<br/>
+        <input type="radio" name="fcorF" onclick="defColor(1, '#0f0')">Verde<br/>
+        <input type="radio" name="fcorF" onclick="defColor(1, '#00f')">Azul<br/>
+
+        <label>Cor texto:</label>
+        <input type="radio" name="fcorT" onclick="defColor(0, '#000')">Preto<br/>
+        <input type="radio" name="fcorT" onclick="defColor(0, '#fff')">Branco<br/>
+        <input type="button" value="Gravar" onclick="record()">
+    </form>
+</body>
+</html> 
